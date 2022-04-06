@@ -5,7 +5,7 @@ const date = require(__dirname+"/date.js");
 const mongoose = require("mongoose");
 const _ = require("lodash");
 
-mongoose.connect("mongodb+srv://admin-abhi:test123@cluster0.x51oq.mongodb.net/todolistDB");
+mongoose.connect("");
 const listschema={
 name:{
     type:String,
